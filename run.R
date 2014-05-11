@@ -1,5 +1,5 @@
 source("readData.R")
-cachedData <- readCachedData()
+cachedData <- getCachedData()
 df <- cachedData$get()
 
 source("plot1.R")
