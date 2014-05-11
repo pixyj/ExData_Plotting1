@@ -7,6 +7,11 @@ the repo directory
 
 source("run.R")
 
+##How it works
+
+1. readData.R contains all functions to read the data from the text file and cache the data.
+2. run.R calls `getCachedData` to load the relevant data for ("1/2/2007", "2/2/2007") into the data frame, `df`. The individual plot functions now accept the data frame `df` as input and implement the plotting logic.
+
 ## Introduction
 
 This assignment uses data from
