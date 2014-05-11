@@ -1,3 +1,12 @@
+##Instructions
+
+0. Clone the repo
+1. Download the original zip file and extract `household_power_consumption.txt` into 
+the repo directory
+2. Run all the plotting scripts
+
+source("run.R")
+
 ## Introduction
 
 This assignment uses data from
