@@ -1,7 +1,6 @@
 plot1 <- function(df) {
     
     message("Plotting plot1")
-    globalActivePower <- as.numeric(df[, "Global_active_power"]) / 1000
     
     globalActivePower <- as.numeric(df[, "Global_active_power"]) / 1000
 
