@@ -1,7 +1,7 @@
 plot2 <- function(df) {
     
     message("Plotting plot2")
-    globalActivePower <- as.numeric(df[, "Global_active_power"])
+    globalActivePower <- as.numeric(df[, "Global_active_power"]) / 1000
     
     png(file="plot2.png", width=480, height=480)
     
